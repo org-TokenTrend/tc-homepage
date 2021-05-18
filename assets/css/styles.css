@@ -553,3 +553,91 @@ img {
   font-size: 1.2rem;
 }
 
+.team-item {
+  height: 310px;
+  padding: 20px 30px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+  color: #081B21;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -webkit-box-shadow: 0 5px 15px 0 rgba(194, 188, 210, 0.2);
+  box-shadow: 0 5px 15px 0 rgba(194, 188, 210, 0.2);
+}
+
+#our-team .item {
+  width: 350px;
+  height: 330px;
+  margin-left: 20px;
+}
+
+
+/* .team-item */
+
+.owl-theme {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.team-item {
+  background: #F2EDE0;
+}
+
+
+.team-item .desc:hover {}
+
+.team-item .desc {
+    text-align: left;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 30px;
+    font-weight: 600;
+    color: #081B21;
+    line-height: 20px;
+    background: linear-gradient(180deg, #081B21 0%, #F2EDE0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.team-item:hover {
+    background: rgb(235, 241, 179);
+    -webkit-text-fill-color: #081B21;
+}
+
+.team-item:hover .desc {
+    -webkit-text-fill-color: #081B21;
+}
+
+.team-item .img {
+  display: inline-block;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  padding: 15px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  border: 2px dashed #edeffe;
+}
+
+.team-item .img img {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  border-radius: 50%;
+}
+
+.team-item .body h6 {
+  margin-bottom: 6px;
+  font-size: 40px;
+}
+
+.team-item .body span {
+  border: 1px solid #081B21;
+  border-radius: 15px;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding: 0 6px;
+  font-weight: 600;
+}
