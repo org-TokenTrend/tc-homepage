@@ -553,6 +553,10 @@ img {
   font-size: 1.2rem;
 }
 
+.project{
+  margin-top:0px !important;
+  text-align:center;
+}
 .team-item {
   height: 310px;
   padding: 20px 30px;
