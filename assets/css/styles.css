@@ -644,10 +644,7 @@ img {
 
 .roadmap {
   width:100%;
-  height:1080px;
-  padding-top:200px;
-  margin-top:-120px;
-  background-image:url(../img/roadmap/roadmap-bg.png);
+  height:600px;
   background-position:top;
   background-size:auto 1080px;
   background-repeat:no-repeat;
@@ -655,8 +652,8 @@ img {
  }
 .roadmap-bg {
   margin-left:58px;
-  height:326px;
-  margin-top:140px;
+  height:600px;
+  margin-top:40px;
   background-image:url(../img/roadmap/roadmap-path.png);
   background-position:0 0;
   background-size:auto 100%;
@@ -668,7 +665,7 @@ img {
     position:absolute;
  }
 .time {
-  opacity:.5;
+  opacity:1;
   cursor:pointer
 }
 .time.active {
@@ -695,54 +692,55 @@ img {
   text-indent:-1em
 }
 .time.time1 img{
-  top:59px;
-  left:-21px
+  top:330px;
+  left:140px
  }
 .time1 .name{
-  top:124px;
-  left:-28px
+  top:240px;
+  left:0px
  }
 .time1 .desc{
-  top:178px;
-  left:-57px;
+  top:280px;
+  left:-50px;
   width:310px
 }
 .time2 img{
-  top:117px;
-  left:301px
+  top:330px;
+  left:400px
 }
 .time2 .name{
-  top:93px;
-  left:331px
+  top:400px;
+  left:330px
 }
 .time2 .desc{
-  top:5px;
-  left:462px;
-  width:250px
+  top:440px;
+  left:290px;
+  width:350px
 }
 .time3 img{
-  bottom:-21px;
-  left:549px
+  bottom:190px;
+  left:480px
 }
 .time3 .name{
-  bottom:-58px;
-  left:535px
+  bottom:280px;
+  left:340px
 }
 .time3 .desc{
-  top:424px;
-  left:491px
+  top:50px;
+  left:280px;
+  width:200px
 }
 .time4 img{
-  top:-21px;
-  left:917px
+  top:180px;
+  left:800px
  }
 
 .time4 .name{
-  top:44px;
-  left:917px
+  top:240px;
+  left:800px
  }
 .time4 .desc{
-  top:98px;
-  left:855px;
+  top:280px;
+  left:760px;
   width:380px
  }
