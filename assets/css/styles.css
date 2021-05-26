@@ -749,3 +749,10 @@ img {
   left:760px;
   width:380px
  }
+
+
+ .video{
+ width:100%;
+ height:50%;
+ object-fit:cover;
+ }

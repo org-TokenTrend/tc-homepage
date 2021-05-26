@@ -237,5 +237,10 @@ $(document).ready(function(){
     enablei18n($(this).attr('data-lang'));
     $(".scroll-to-top a").trigger('click');
   });
+  console.log("this is a test")
+  $('#player').play();
 });
+function play_v1(v){
+        v.play()
+    }
 
