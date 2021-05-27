@@ -7,6 +7,53 @@
     "use strict"; // Start of use strict
     
     // Smooth scrolling using jQuery easing
+    var chart = Highcharts.chart('container1', {
+    	chart: {
+    		type: 'pie',
+    		options3d: {
+    			enabled: true,
+    			alpha: 45,
+    			beta: 0
+    		}
+    	},
+    	title: {
+    		text: 'Trillionaire Token'
+    	},
+    	tooltip: {
+    		pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+    	},
+    	plotOptions: {
+    		pie: {
+    			allowPointSelect: true,
+    			cursor: 'pointer',
+    			depth: 40,
+    			dataLabels: {
+    				enabled: true,
+    				format: '{point.name}'
+    			}
+    		}
+    	},
+    	series: [{
+    		type: 'pie',
+    		name: 'TT',
+    		data: [
+    			['Team 20%',   20.0],
+    			['Community Building 5%',  5.0],
+    			{
+    				name: 'Environmental Protection 5%',
+    				y: 5.0,
+    				sliced: true,
+    				selected: true
+    			},
+    			['Game/Mining Reward 25%',    25.0],
+    			['Ecological Construction 10%',   10.0],
+    			['Fundation 10%',   10.0],
+    			['Consultant 5%',   5.0],
+    			['Token Sale 20%',   20.0]
+    		]
+    	}]
+    });
+
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
       if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
         var target = $(this.hash);
@@ -232,8 +279,9 @@ $(document).ready(function(){
     enablei18n($(this).attr('data-lang'));
     $(".scroll-to-top a").trigger('click');
   });
-  console.log("this is a test")
-  $('#player').play();
+
+//  $('#player').play();
+
 });
 function play_v1(v){
         v.play()

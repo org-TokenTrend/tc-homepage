@@ -83,7 +83,7 @@
     <!-- Masthead-->
     <header class="masthead bg-primary text-white text-center" style="position:relative;" id="coin">
         <div id="particles" style="position:absolute;top:0;bottom:0;left:0;right:0;"></div>
-        <video id="player" onmouseover="play_v1(this)" style="width:80%;" autoplay="" loop="" playsinline="">
+        <video id="player" muted="" style="width:80%;" autoplay="" loop="" playsinline="">
 
             <source src="assets/video/overview.mp4"  type="video/mp4">
         </video>
@@ -213,9 +213,7 @@
                         currency that
                         enables you to easily send money online. Think of it as "the internet currency."</p>
                 </div>
-
-                <img class="masthead-avatar mb-1" style="margin-top:-3rem;width:100%;" src="assets/img/share.png"
-                    alt="" />
+                <div id="container1" style="height: 700px"></div>
             </div>
 
 
@@ -478,6 +476,12 @@
     <script src="assets/vendor/js/jquery.i18n/jquery.i18n.language.js"></script>
     <script src="assets/vendor/js/jquery.i18n/jquery.i18n.parser.js"></script>
     <script src="assets/vendor/js/jquery.i18n/jquery.i18n.emitter.js"></script>
+    <script src="https://code.highcharts.com.cn/highcharts/highcharts.js"></script>
+    <script src="https://code.highcharts.com.cn/highcharts/highcharts-3d.js"></script>
+    <script src="assets/js/exporting.js"></script>
+    <script src="https://img.hcharts.cn/highcharts-plugins/highcharts-zh_CN.js"></script>
+    <script src="assets/js/dark-unica.js"></script>
+
     <!-- Core theme JS-->
     <script src="assets/js/scripts.js"></script>
 </body>
