@@ -693,8 +693,45 @@ img {
  height:50%;
  object-fit:cover;
  }
+
+.ecology-item{
+  font-size: 16px;
+  padding: 4px 0 0 10px;
+  position: relative;
+  
+ }
+.ecology-border{
+  border-radius: 20px;
+  border:3px solid #1abc9c;
+  padding: 10px;
+  height:500px;
+}
+.ecology-title{
+  font-size:25px; 
+  line-height:1em;
+  font-size:25px;
+  color:white;
+  font-style:normal;
+  letter-spacing:0em;
+
+}
+.ecology-content{
+  font-size: 1.25rem; 
+  line-height: 1.5;
+  font-weight:300;
+  font-style:normal;
+  color:#e5e7e9;
+  vertical-align: baseline;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+#ecology-img img{
+  position: relative;
+  right: 0%;
+  bottom: 0%;
+}
  ul.col1{
-   background-image: url(../img/partner/class-eth.png);
+   background-image: url(../img/partner/class-heco.png);
     content: "";
     width: 110px;
     height: 300px;
@@ -705,7 +742,7 @@ img {
   
  }
  ul.col2{
-  background-image: url(../img/partner/class-bsc.png);
+  background-image: url(../img/partner/class-eth.png);
    content: "";
    width: 110px;
    height: 300px;
@@ -716,6 +753,17 @@ img {
  
 }
 ul.col3{
+  background-image: url(../img/partner/class-bsc.png);
+   content: "";
+   width: 110px;
+   height: 300px;
+   background-size: 50%;
+   background-position: top;
+   background-repeat: no-repeat;
+   opacity: .8;
+ 
+}
+ul.col4{
   background-image: url(../img/partner/class-neo.png);
    content: "";
    width: 110px;
@@ -732,15 +780,14 @@ ul.col3{
 	-ms-flex-positive: 1;
 	flex-grow: 1;
 	max-width: 100%;
-    display: inline-block;
-    width: 260px;
-    height: 300px;
-    border-radius: 20px;
-    font-size: 16px;
-    padding: 4px 0 0 80px;
-    position: relative;
-    font-family: fontDemiBold;
-    font-size: 16px;
+  display: inline-block;
+  width: 260px;
+  height: 300px;
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 4px 0 0 40px;
+  position: relative;
+  font-family: fontDemiBold;
     
 }
 
