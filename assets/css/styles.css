@@ -95,10 +95,10 @@ h1, h2, h3, h4, h5, h6,
 #mainNav .navbar-toggler {  
   font-size: 80%; 
   padding: 0.8rem;  
-} 
+}
 
 .masthead { 
-  padding-top: calc(6rem + 74px);
+  padding-top: calc(2rem + 74px);
   padding-bottom: 6rem; 
 } 
 .masthead .masthead-heading { 
@@ -792,8 +792,8 @@ ul.col4{
 }
 
 .exchanges-group {
-	display: flex;
-	margin-top: 70px;
+  display: flex;
+  margin-top: 20px;
   padding: 0;
   box-sizing: border-box;
 }
