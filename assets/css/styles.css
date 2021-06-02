@@ -810,3 +810,13 @@ a:hover{
   color:#1abc9c;
   text-decoration: none;
 }
+
+.media-button{
+  margin:0px 10px 0px 10px;
+}
+svg{
+  fill:white;
+}
+svg:hover{
+  fill:#1abc9c !important;
+}
