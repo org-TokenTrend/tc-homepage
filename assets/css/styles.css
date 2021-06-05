@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6,
   color: #fff;  
 } 
 #navbarResponsive .navbar-nav li.nav-item a.nav-link.active {  
-  color: #1abc9c; 
+  color: #0177D1; 
 } 
 #mainNav .navbar-toggler {  
   font-size: 80%; 
@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6,
   top: 1rem;  
   font-size: 3rem;  
   line-height: 3rem;  
-  color: #1abc9c; 
+  color: #0177D1; 
   opacity: 1; 
 } 
 .floating-label-form-group {  
@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6,
   opacity: 1; 
 } 
 .floating-label-form-group-with-focus label { 
-  color: #1abc9c; 
+  color: #0177D1; 
 } 
 form .row:first-child .floating-label-form-group {  
   border-top: 1px solid #e9ecef;  
@@ -394,7 +394,7 @@ button.bg-primary:focus {
 #mainNav .navbar-nav li.nav-item a.nav-link:hover, a.pool-link:hover,
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus,
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
+  color: #0177D1;
 }
 .masthead {
   padding-top: calc(1rem + 74px);
@@ -702,7 +702,7 @@ img {
  }
 .ecology-border{
   border-radius: 20px;
-  border:3px solid #1abc9c;
+  border:3px solid #0177D1;
   padding: 10px;
   height:500px;
 }
@@ -724,6 +724,7 @@ img {
   vertical-align: baseline;
   margin-top: 30px;
   margin-right: 20px;
+  text-align: left;
 }
 #ecology-img img{
   position: relative;
@@ -788,6 +789,7 @@ ul.col4{
   padding: 4px 0 0 40px;
   position: relative;
   font-family: fontDemiBold;
+  text-align: left;
     
 }
 
@@ -807,7 +809,7 @@ a{
   font-family: fontDemiBold;
 }
 a:hover{
-  color:#1abc9c;
+  color:#0177D1;
   text-decoration: none;
 }
 
@@ -818,5 +820,5 @@ svg{
   fill:white;
 }
 svg:hover{
-  fill:#1abc9c !important;
+  fill:#0177D1 !important;
 }
