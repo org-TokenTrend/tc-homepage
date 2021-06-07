@@ -590,6 +590,8 @@ img {
   background-position:top;
   background-size:auto 1080px;
   background-repeat:no-repeat;
+  color: white;
+  
 
  }
 .roadmap-bg {
@@ -607,8 +609,11 @@ img {
     position:absolute;
  }
 .time {
-  opacity:1;
+  opacity: 0.5;
   cursor:pointer
+}
+.time:hover{
+  opacity: 1;
 }
 .time.active {
   opacity:1
@@ -665,12 +670,12 @@ img {
 }
 .time3 .name{
   bottom:280px;
-  left:340px
+  left:260px
 }
 .time3 .desc{
   top:50px;
-  left:280px;
-  width:200px
+  left:200px;
+  width:240px
 }
 .time4 img{
   top:180px;
@@ -694,6 +699,12 @@ img {
  object-fit:cover;
  }
 
+.ecology-img{
+  width: 100%;  
+  height: auto;  
+  max-width: 120%;  
+  max-height: 120%;     
+}
 .ecology-item{
   font-size: 16px;
   padding: 4px 0 0 10px;
