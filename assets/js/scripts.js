@@ -17,7 +17,7 @@
     		}
     	},
     	title: {
-    		text: 'Trillionaire Token'
+    		text: 'TokenTrend'
     	},
     	tooltip: {
     		pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
