@@ -608,10 +608,43 @@ img {
   background-size:auto 100%;
   background-repeat:no-repeat
  }
+
+ @media screen and (max-width:680px) {
+  .roadmap {
+    width:100%;
+    height:800px;
+    background-position:top;
+    background-size:auto 1080px;
+    background-repeat:no-repeat;
+    color: white;
+  
+  
+   }
+  .roadmap-bg {
+    margin-top:280px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom: 100px;
+    /* margin-bottom: 50px; */
+    height:600px;
+    background-image:url(../img/roadmap/roadmap-path-small.png);
+    background-position:0 0;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+   }
+ }
 .roadmap-content {
   width:1302px;
   height:326px;
+  position:absolute;
+ }
+
+ @media screen and (max-width:680px) {
+  .roadmap-content {
+    width:300px;
+    height:1000px;
     position:absolute;
+   }
  }
 .time {
   opacity: 0.5;
@@ -636,17 +669,19 @@ img {
   cursor:pointer
 }
 .time .name{
-  font-size:18px
+  font-size:18px;
 }
 .time .desc p{
   font-size:14px;
   line-height:24px;
-  text-indent:-1em
+  text-indent:-1em;
+  text-align: left;
 }
 .time.time1 img{
   top:330px;
   left:140px
  }
+
 .time1 .name{
   top:240px;
   left:0px
@@ -656,6 +691,21 @@ img {
   left:-50px;
   width:310px
 }
+@media screen and (max-width:680px) {
+  .time.time1 img{
+    top:-35px;
+    left:10px
+   }
+   .time1 .name{
+    top:-200px;
+    left:40px
+   }
+  .time1 .desc{
+    top:-150px;
+    left:20px;
+    width:310px
+  }
+ }
 .time2 img{
   top:330px;
   left:400px
@@ -669,6 +719,22 @@ img {
   left:290px;
   width:350px
 }
+
+@media screen and (max-width:680px) {
+  .time2 img{
+    top:150px;
+    left:338px
+  }
+  .time2 .name{
+    top:60px;
+    left:120px
+  }
+  .time2 .desc{
+    top:100px;
+    left:20px;
+    width:350px
+  }
+ }
 .time3 img{
   bottom:190px;
   left:480px
@@ -681,6 +747,21 @@ img {
   top:50px;
   left:200px;
   width:240px
+}
+@media screen and (max-width:680px) {
+  .time3 img{
+    top:420px;
+    left:43px
+  }
+  .time3 .name{
+    top:340px;
+    left:180px
+  }
+  .time3 .desc{
+    top:380px;
+    left:100px;
+    width:300px
+  }
 }
 .time4 img{
   top:180px;
@@ -696,7 +777,22 @@ img {
   left:760px;
   width:380px
  }
-
+ @media screen and (max-width:680px) {
+  .time4 img{
+    top:562px;
+    left:240px
+   }
+  
+  .time4 .name{
+    top:560px;
+    left:120px
+   }
+  .time4 .desc{
+    top:620px;
+    left:80px;
+    width:380px;
+   }
+ }
 
  .video{
  width:100%;
