@@ -722,8 +722,8 @@ img {
 
 @media screen and (max-width:680px) {
   .time2 img{
-    top:150px;
-    left:338px
+    top:-35px;
+    left:190px
   }
   .time2 .name{
     top:60px;
@@ -750,8 +750,8 @@ img {
 }
 @media screen and (max-width:680px) {
   .time3 img{
-    top:420px;
-    left:43px
+    top:280px;
+    left:200px
   }
   .time3 .name{
     top:340px;
@@ -780,15 +780,15 @@ img {
  @media screen and (max-width:680px) {
   .time4 img{
     top:562px;
-    left:240px
+    left:200px
    }
   
   .time4 .name{
-    top:560px;
+    top:600px;
     left:120px
    }
   .time4 .desc{
-    top:620px;
+    top:660px;
     left:80px;
     width:380px;
    }
