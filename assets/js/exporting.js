@@ -534,16 +534,17 @@
             d = d / 3 - 2;
             return a = a.concat(this.circle(c - d, b, d, d), this.circle(c - d, b + d + 4, d, d), this.circle(c - d, b + 2 * (d + 4), d, d))
         };
-		/*//Michael
+		//Michael
         c.prototype.renderExporting = function () {
-            var a = this, b = a.options.exporting, c = b.buttons, d = a.isDirtyExporting || !a.exportSVGElements;
-            a.buttonOffset = 0;
-            a.isDirtyExporting && a.destroyExport();
-            d && !1 !== b.enabled && (a.exportEvents = [], a.exportingGroup = a.exportingGroup ||
-                a.renderer.g("exporting-group").attr({zIndex: 3}).add(), F(c, function (b) {
-                a.addButton(b)
-            }), a.isDirtyExporting = !1)
-        };*/
+            //Martin comments here
+            // var a = this, b = a.options.exporting, c = b.buttons, d = a.isDirtyExporting || !a.exportSVGElements;
+            // a.buttonOffset = 0;
+            // a.isDirtyExporting && a.destroyExport();
+            // d && !1 !== b.enabled && (a.exportEvents = [], a.exportingGroup = a.exportingGroup ||
+            //     a.renderer.g("exporting-group").attr({zIndex: 3}).add(), F(c, function (b) {
+            //     a.addButton(b)
+            // }), a.isDirtyExporting = !1)
+        };
         x(c, "init", function () {
             var a = this;
             a.exporting = {

@@ -41,8 +41,8 @@
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
         <h1 class="sr-only">TokenTrend</h1>
         <div class="container-fluid">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/tcoin-big.png"
-                    alt="TCoin Logo">&nbsp;TokenTrend</a>
+            <a data-i18n="token-name" class="navbar-brand js-scroll-trigger" href="#page-top"><img
+                    src="assets/img/tcoin-big.png" alt="TCoin Logo">&nbsp;TokenTrend</a>
             <button
                 class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary   text-secondary rounded"
                 type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
@@ -53,28 +53,28 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                            href="#coin"><span data-i18n="dgc-wallets">What is Trend Token</span></a>
+                            href="#coin"><span data-i18n="trend-wallets">What is Trend Token</span></a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                            href="#project"><span data-i18n="dgc-what-is-doge">Project</span></a>
+                            href="#project"><span data-i18n="trend-project-title">Project</span></a>
                     </li>
 
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                            href="#ecology"><span data-i18n="dgc-get-started-now">Ecology</span></a>
+                            href="#ecology"><span data-i18n="trend-ecology-title">Ecology</span></a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#partner"><span data-i18n="dgc-support">Token Allocation</span></a>
+                            href="#partner"><span data-i18n="trend-allocation-title">Token Allocation</span></a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#our-team"><span data-i18n="dgc-guide">Team</span></a></li>
+                            href="#our-team"><span data-i18n="trend-team-title">Team</span></a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#audit"><span
+                                data-i18n="trend-audit-title">Audit</span></a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#audit"><span data-i18n="dgc-guide">Audit</span></a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#roadmap"><span data-i18n="dgc-support">Roadmap</span></a>
+                            href="#roadmap"><span data-i18n="trend-roadmap-title">Roadmap</span></a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="https://tokentrend.github.io/whitepaper/"><span
-                                data-i18n="dgc-support">Whitepaper</span></a>
+                                data-i18n="trend-whitepaper-title">Whitepaper</span></a>
                     </li>
 
                 </ul>
@@ -102,7 +102,7 @@
 
                     <div class="btn btn-outline-secondary btn-lg">
                         <a href="https://github.com/TokenTrend" target="_blank"><span class="fab fa-github"></span>
-                            <span data-i18n="dgc-wallet-source">View
+                            <span data-i18n="trend-source-code">View
                                 on GitHub</span></a>
                     </div>
                 </div>
@@ -113,7 +113,7 @@
     <section class="page-section portfolio" id="project">
         <div class="container">
             <!-- Portfolio Section Heading-->
-            <h2 data-i18n="dgc-choose-wallet"
+            <h2 data-i18n="trend-project-section"
                 class="page-section-heading text-center text-uppercase text-secondary mb-0">
                 Project Introduction</h2>
             <!-- Icon Divider-->
@@ -124,7 +124,8 @@
             </div>
             <div>
                 <div class="masthead">
-                    <p data-i18n="dgc-header-desc" class="masthead-subheading font-weight-light text-secondary mb-0">
+                    <p data-i18n="trend-project-cpntent"
+                        class="masthead-subheading font-weight-light text-secondary mb-0">
                         The birth of the Trend Token is based on the combination of 3Os Lab’s milestones and the
                         technology of blockchain and as well as the development of cryptocurrency. The mission of
                         CoinTrend is to provide consumers a cryptocurrency-based sustained and stable growth
@@ -145,7 +146,8 @@
     <!-- Ecology Section-->
     <section class="masthead bg-primary text-white text-center" id="ecology">
         <div class="container">
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">
+            <h2 data-i18n="trend-ecology-section"
+                class="page-section-heading text-center text-uppercase text-secondary mb-0">
                 Ecology</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
@@ -157,7 +159,7 @@
                 <img class="ecology-img" src="assets/img/project/ecology.svg" alt="" />
             </div>
             <div class="masthead">
-                <p class=" masthead-subheading font-weight-light text-secondary mb-0">
+                <p data-i18n="trend-ecology-content" class=" masthead-subheading font-weight-light text-secondary mb-0">
                     <strong>Our mission</strong> is to provide consumers a cryptocurrency-based sustained and stable
                     growth
                     mainstream
@@ -174,12 +176,29 @@
             <div class="row" style="margin-bottom: 20px;">
                 <div class="col-md-4 ecology-item">
                     <div class="ecology-border">
+                        <div data-i18n="ecology-ai-title" class="ecology-title">
+                            <span>AI System&nbsp;
+                            </span>
+                        </div>
+                        <div data-i18n="ecology-ai-content" class="ecology-content">
+                            <span>AI system will collect data from Internet and the data from Simulate System. After
+                                data analysis we will provide at least 3 kinds of service
+                                Trend Forecast,Index Analysis and News Feed.&nbsp;
+                            </span>
+                        </div>
+                        <div id="ecology-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ecology-item">
+                    <div class="ecology-border">
                         <div class="ecology-title">
-                            <span>Simulate System&nbsp;
+                            <span data-i18n="ecology-simulate-title">Simulate System&nbsp;
                             </span>
                         </div>
                         <div class="ecology-content">
-                            <span>Customer can join the Quiz or Virtual Transaction with their TokenTrend. And there is
+                            <span data-i18n="ecology-simulate-content">Customer can join the Quiz or Virtual Transaction
+                                with their TokenTrend. And there is
                                 a ranking system according
                                 to the result. With the ranking system we can identify some stars of the coin trader and
                                 get some trader's expectation of the market.&nbsp;
@@ -194,27 +213,12 @@
                 <div class="col-md-4 ecology-item">
                     <div class="ecology-border">
                         <div class="ecology-title">
-                            <span>AI System&nbsp;
+                            <span data-i18n="ecology-community-title">Community System&nbsp;
                             </span>
                         </div>
                         <div class="ecology-content">
-                            <span>AI system will collect data from Internet and the data from Simulate System. After
-                                data analysis we will provide at least 3 kinds of service
-                                Trend Forecast,Index Analysis and News Feed.&nbsp;
-                            </span>
-                        </div>
-                        <div id="ecology-img">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ecology-item">
-                    <div class="ecology-border">
-                        <div class="ecology-title">
-                            <span>Community System&nbsp;
-                            </span>
-                        </div>
-                        <div class="ecology-content">
-                            <span>All token holders can write articles about coin trading, but the stars identified by
+                            <span data-i18n="ecology-community-content">All token holders can write articles about coin
+                                trading, but the stars identified by
                                 our system will be marked with crown to show his
                                 professionalism. The articles can be categorized into 2 kinds, one is public for free
                                 and another is payed.&nbsp;
@@ -227,7 +231,8 @@
 
             </div>
             <div class="masthead">
-                <p class=" masthead-subheading font-weight-light text-secondary mb-0">
+                <p data-i18n="ecology-liquidity-content"
+                    class=" masthead-subheading font-weight-light text-secondary mb-0">
                     <strong>Market Liquidity</strong>: The aggregation of different liquidity sources through
                     TokenTrend, provide customers the ability to identify the best exchange quote at some points and the
                     best
@@ -293,7 +298,7 @@
     <section class="page-section portfolio" id="partner">
         <div class="container">
             <!-- Portfolio Section Heading-->
-            <h2 data-i18n="dgc-choose-wallet"
+            <h2 data-i18n="trend-allocation-section"
                 class="page-section-heading text-center text-uppercase text-secondary mb-0">
                 Token Allocation</h2>
             <!-- Icon Divider-->
@@ -310,7 +315,7 @@
         <!-- <section class="section bg-light-grey" id="our-team"> -->
         <div class="container">
             <!-- Portfolio Section Heading-->
-            <h2 data-i18n="dgc-choose-wallet"
+            <h2 data-i18n="trend-team-section"
                 class="page-section-heading text-center text-uppercase text-secondary mb-0">
                 Team Members</h2>
             <!-- Icon Divider-->
@@ -323,10 +328,10 @@
                 <div class="item">
                     <div class="team-item">
                         <div class="body">
-                            <h6 data-i18n="team.t1">Ivy</h6>
-                            <span>CEO</span>
+                            <h6 >Ivy</h6>
+                            <span data-i18n="team.title0">CEO</span>
 
-                            <p class="desc" data-i18n="team.t14">More than 13 years’ experience of internet
+                            <p class="desc" data-i18n="team.t1.intro">More than 13 years’ experience of internet
                                 development in multiple technical middleware.Proficient in Java, Go and Rust and DevOps
                                 Expert.
                             </p>
@@ -337,10 +342,10 @@
                     <div class="team-item">
                         <div class="body">
 
-                            <h6 data-i18n="team.t2">Louis</h6>
-                            <span data-i18n="team.t10">CTO</span>
+                            <h6 data-i18n="team.t2.name">Louis</h6>
+                            <span data-i18n="team.title1">CTO</span>
 
-                            <div class="desc" data-i18n="team.t13">More than 13 years' experience in research and
+                            <div class="desc" data-i18n="team.t2.intro">More than 13 years' experience in research and
                                 development of IT industry. ACMer and expert in algorithm. Hold 3 patents and 3 papers
                                 which were published in international conferences. Familiar with blockchain and
                                 solidity.
@@ -352,11 +357,12 @@
                     <div class="team-item">
                         <div class="body">
 
-                            <h6>
+                            <h6 data-i18n="team.t3.name">
                                 Antonio
                             </h6>
-                            <span>COO</span>
-                            <div class="desc" data-i18n="team.t3">More than 15 year's website operation experience.
+                            <span data-i18n="team.title2">COO</span>
+                            <div class="desc" data-i18n="team.t3.intro">More than 15 year's website operation
+                                experience.
                                 Expert in Go, solidity and DevOps. Expert with Cloud DevOps covering AWS，Azure and
                                 AliCloud.
                             </div>
@@ -366,9 +372,9 @@
                 <div class="item">
                     <div class="team-item">
                         <div class="body">
-                            <h6 data-i18n="team.t4">Frank</h6>
-                            <span data-i18n="team.t12">Researcher</span>
-                            <div class="desc" data-i18n="team.t18">10 years’ experience in
+                            <h6 data-i18n="team.t4.name">Frank</h6>
+                            <span data-i18n="team.title6">Researcher</span>
+                            <div class="desc" data-i18n="team.t4.intro">10 years’ experience in
                                 Internet big data analysis. 3 years’ experience in the blockchain industry. Expert in
                                 economic modelling and distributed businesses.
                             </div>
@@ -378,9 +384,10 @@
                 <div class="item">
                     <div class="team-item">
                         <div class="body">
-                            <h6 data-i18n="team.t5">Vanessa</h6>
-                            <span data-i18n="team.t11">UI Expert</span>
-                            <div class="desc" data-i18n="team.t15">10 years’ experience in IT technology development.
+                            <h6 data-i18n="team.t5.name">Vanessa</h6>
+                            <span data-i18n="team.title5">UI Expert</span>
+                            <div class="desc" data-i18n="team.t5.intro">10 years’ experience in IT technology
+                                development.
                                 Many years of experience in UI design.
                             </div>
                         </div>
@@ -390,9 +397,10 @@
                 <div class="item">
                     <div class="team-item">
                         <div class="body">
-                            <h6 data-i18n="team.t6">Martinez</h6>
-                            <span data-i18n="team.t11">Core developer</span>
-                            <div class="desc" data-i18n="team.t16">11 years’ experience in electronic business software
+                            <h6 data-i18n="team.t6.name">Martinez</h6>
+                            <span data-i18n="team.title4">Core developer</span>
+                            <div class="desc" data-i18n="team.t6.intro">11 years’ experience in electronic business
+                                software
                                 development and
                                 management. Smart Contract expert and DApp developer. Expert in distributed network.
                             </div>
@@ -402,9 +410,9 @@
                 <div class="item">
                     <div class="team-item">
                         <div class="body">
-                            <h6 data-i18n="team.t7">Cesare</h6>
-                            <span data-i18n="team.t11">Core developer</span>
-                            <div class="desc" data-i18n="team.t17"> More than 12 years' experience in IT technology
+                            <h6 data-i18n="team.t7.name">Cesare</h6>
+                            <span data-i18n="team.title4">Core developer</span>
+                            <div class="desc" data-i18n="team.t7.intro">More than 12 years' experience in IT technology
                                 development.
                                 Full stack developer. Proficient in algorithm, Big data, Java, Python and Golang.
                                 Familiar with Ethereum blockchain.
@@ -416,9 +424,9 @@
                 <div class="item">
                     <div class="team-item">
                         <div class="body">
-                            <h6 data-i18n="team.t8">Raphael</h6>
-                            <span data-i18n="team.t27">Developer</span>
-                            <div class="desc" data-i18n="team.t19">Expert in Java language, main programmer for
+                            <h6 data-i18n="team.t8.name">Raphael</h6>
+                            <span data-i18n="team.title3">Developer</span>
+                            <div class="desc" data-i18n="team.t8.intro">Expert in Java language, main programmer for
                                 multithreaded programming, real-time and
                                 high-performance middleware software.
                             </div>
@@ -428,9 +436,9 @@
                 <div class="item">
                     <div class="team-item">
                         <div class="body">
-                            <h6 data-i18n="team.t9">Peng</h6>
-                            <span data-i18n="team.t27">Developer</span>
-                            <div class="desc" data-i18n="team.t20">Over 15 years’ experience in software
+                            <h6 data-i18n="team.t9.name">Peng</h6>
+                            <span data-i18n="team.title3">Developer</span>
+                            <div class="desc" data-i18n="team.t9.intro">Over 15 years’ experience in software
                                 development/integration. Developer of Auckland Blockchainlabs (technical team).
                             </div>
                         </div>
@@ -444,7 +452,7 @@
     <section class="page-section portfolio" id="audit">
         <div class="container">
             <!-- Portfolio Section Heading-->
-            <h2 data-i18n="dgc-choose-wallet"
+            <h2 data-i18n="trend-audit-section"
                 class="page-section-heading text-center text-uppercase text-secondary mb-0">
                 Audit</h2>
             <!-- Icon Divider-->
@@ -466,7 +474,7 @@
     <section class="masthead bg-primary text-white text-center" id="roadmap">
         <div class="container">
             <!-- Portfolio Section Heading-->
-            <h2 data-i18n="dgc-choose-wallet"
+            <h2 data-i18n="trend-roadmap-section"
                 class="page-section-heading text-center text-uppercase text-secondary mb-0">
                 Roadmap</h2>
             <!-- Icon Divider-->
@@ -475,50 +483,43 @@
                 <div class="divider-custom-icon"><i class="fas fa-angle-down"></i></div>
                 <div class="divider-custom-line"></div>
             </div>
-            <div _ngcontent-odu-c146="" class="content roadmap">
-                <div _ngcontent-odu-c146="" class="roadmap-bg">
-                    <div _ngcontent-odu-c146="" class="roadmap-content">
-                        <div _ngcontent-odu-c146="" class="time time1"><img _ngcontent-odu-c146=""
-                                src="./assets/img/roadmap/time1-icon.png" alt="">
-                            <p _ngcontent-odu-c146="" class="name">2021 Q1</p>
-                            <div _ngcontent-odu-c146="" class="desc">
-                                <p _ngcontent-odu-c146="">1. Release 3Os Business Model.</p>
-                                <p _ngcontent-odu-c146="">2. Publish whitepaper.</p>
-                                <p _ngcontent-odu-c146="">3. Lunch the main page.</p>
+            <div class="content roadmap">
+                <div class="roadmap-bg">
+                    <div class="roadmap-content">
+                        <div class="time time1"><img src="./assets/img/roadmap/time1-icon.png" alt="">
+                            <p data-i18n="trend-roadmap-step1-title" class="name">2021 Q1</p>
+                            <div class="desc">
+                                <p data-i18n="trend-roadmap-step1-content1">1. Release 3Os Business Model.</p>
+                                <p data-i18n="trend-roadmap-step1-content2">2. Publish whitepaper.</p>
+                                <p data-i18n="trend-roadmap-step1-content3">3. Lunch the main page.</p>
                             </div>
                         </div>
-                        <div _ngcontent-odu-c146="" class="time time2"><img _ngcontent-odu-c146=""
-                                src="./assets/img/roadmap/time2-icon.png" alt="">
-                            <p _ngcontent-odu-c146="" class="name">2021 Q2-Q3</p>
-                            <div _ngcontent-odu-c146="" class="desc">
-                                <p _ngcontent-odu-c146="">1. Build data etl pipeline for machine learning.</p>
-                                <p _ngcontent-odu-c146="">2. Release wallet connection and corresponding function.</p>
-                                <p _ngcontent-odu-c146="">3. Release feature of Quiz(Single coin and Index).</p>
-                                <p _ngcontent-odu-c146="">4. Release feature of Ranking Board for Quiz.</p>
-                                <p _ngcontent-odu-c146="">5. Launch the community website v1.0.</p>
+                        <div class="time time2"><img src="./assets/img/roadmap/time2-icon.png" alt="">
+                            <p data-i18n="trend-roadmap-step2-title" class="name">2021 Q2-Q3</p>
+                            <div class="desc">
+                                <p data-i18n="trend-roadmap-step2-content1">1. Build data etl pipeline for machine learning.</p>
+                                <p data-i18n="trend-roadmap-step2-content2">2. Release wallet connection and corresponding function.</p>
+                                <p data-i18n="trend-roadmap-step2-content3">3. Release feature of Quiz(Single coin and Index).</p>
+                                <p data-i18n="trend-roadmap-step2-content4">4. Release feature of Ranking Board for Quiz.</p>
+                                <p data-i18n="trend-roadmap-step2-content5">5. Launch the community website v1.0.</p>
                             </div>
                         </div>
-                        <div _ngcontent-odu-c146="" class="time time3"><img _ngcontent-odu-c146=""
-                                src="./assets/img/roadmap/time3-icon.png" alt="">
-                            <p _ngcontent-odu-c146="" class="name">2021 Q4</p>
-                            <div _ngcontent-odu-c146="" class="desc">
-
-                                <p _ngcontent-odu-c146="">1. Build and train classification models.</p>
-                                <p _ngcontent-odu-c146="">2. Release the virtual transaction module v1.0.</p>
-                                <p _ngcontent-odu-c146="">3. Release feature of Ranking Board for virtual transaction.
-                                </p>
-                                <p _ngcontent-odu-c146="">4. Release the community website v1.1. </p>
+                        <div class="time time3"><img src="./assets/img/roadmap/time3-icon.png" alt="">
+                            <p data-i18n="trend-roadmap-step3-title" class="name">2021 Q4</p>
+                            <div class="desc">
+                                <p data-i18n="trend-roadmap-step3-content1">1. Build and train classification models.</p>
+                                <p data-i18n="trend-roadmap-step3-content2">2. Release the virtual transaction module v1.0.</p>
+                                <p data-i18n="trend-roadmap-step3-content3">3. Release feature of Ranking Board for virtual transaction.</p>
+                                <p data-i18n="trend-roadmap-step3-content4">4. Release the community website v1.1.</p>
                             </div>
                         </div>
-                        <div _ngcontent-odu-c146="" class="time time4"><img _ngcontent-odu-c146=""
-                                src="./assets/img/roadmap/time4-icon.png" alt="">
-                            <p _ngcontent-odu-c146="" class="name">2022 Q1-Q2</p>
-                            <div _ngcontent-odu-c146="" class="desc">
-                                <p _ngcontent-odu-c146="">1. Build and train regression models.</p>
-                                <p _ngcontent-odu-c146="">2. Release the Farms feature v1.0.</p>
-                                <p _ngcontent-odu-c146="">3. Release feature of full ecology index.</p>
-                                <p _ngcontent-odu-c146="">4. Release feature of cross chain including BSC, Polka, ETH.
-                                </p>
+                        <div class="time time4"><img src="./assets/img/roadmap/time4-icon.png" alt="">
+                            <p data-i18n="trend-roadmap-step4-title" class="name">2022 Q1-Q2</p>
+                            <div class="desc">
+                                <p data-i18n="trend-roadmap-step4-content1">1. Build and train regression models.</p>
+                                <p data-i18n="trend-roadmap-step4-content2">2. Release the Farms feature v1.0.</p>
+                                <p data-i18n="trend-roadmap-step4-content3">3. Release feature of full ecology index.</p>
+                                <p data-i18n="trend-roadmap-step4-content4">4. Release feature of cross chain including BSC, Polka, ETH.</p>
                             </div>
                         </div>
                     </div>
@@ -581,10 +582,11 @@
                     <div class="dropdown">
                         <a class="btn btn-lg btn-outline-light dropdown-toggle" href="#" role="button"
                             id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span data-i18n="dgc-language">Language</span>
+                            <span data-i18n="trend-language">Language</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                             <li><a class="dropdown-item select-lang" data-lang="en">English</a></li>
+                            <li><a class="dropdown-item select-lang" data-lang="ch">中文</a></li>
                         </div>
                     </div>
                 </div>
@@ -596,7 +598,7 @@
         <div class="container">
             <small>Copyright © The TokenTrend Project 2021</small>
             <br>
-            <small data-i18n="dgc-footer-credits">Created by 3Os Lab team.</small>
+            <small data-i18n="trend-footer-author">Created by 3Os Lab team.</small>
         </div>
     </div>
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
@@ -609,7 +611,7 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Third party plugin JS-->
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="assets/vendor/js/particles.min.js"></script>
     <!-- Internationalization -->
     <script src="assets/vendor/js/jquery.i18n/jquery.i18n.js"></script>
