@@ -18,7 +18,7 @@
     "trend-team-title": "团队",
     "trend-audit-title": "审计",
     "trend-roadmap-title": "路线图",
-    "trend-whitepaper-title": "白皮书",
+    "trend-whitepaper-title": "<a class=\"nav-link py-3 px-0 px-lg-3 rounded\" href=\"https://tokentrend.github.io/whitepaper-cn/\"><span>白皮书</span></a>",
     "trend-source-code": "查看GitHub",
     "trend-project-section": "项目介绍",
     "trend-project-cpntent": "趋势币的诞生是基于3Os实验室的里程碑式的技术。这个技术融合了人工智能、区块链以及加密货币技术。趋势币的目的解决传统网站在服务中单向收益的痛点，充分利用电子货币的特点，让用户在享受网站独特的服务之外，同时也能够享受到网站收益，从而成为利益共同体，提高用户粘性。",

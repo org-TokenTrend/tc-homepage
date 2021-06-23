@@ -17,7 +17,7 @@
     "trend-allocation-title": "Token Allocation",
     "trend-team-title": "Team",
     "trend-audit-title": "Audit",
-    "trend-roadmap-title": "Roadmap",
+    "trend-roadmap-title": "<a class=\"nav-link py-3 px-0 px-lg-3 rounded\" href=\"https://tokentrend.github.io/whitepaper/\"><span>Whitepaper</span></a>",
     "trend-whitepaper-title": "Whitepaper",
     "trend-source-code": "View on GitHub",
     "trend-project-section": "Project Introduction",
